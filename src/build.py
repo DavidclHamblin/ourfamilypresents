@@ -24,11 +24,11 @@ BRANDS = [
      "domain": "familystorybooks.co.uk", "status": "soon", "colour": "sky", "icon": "story", "ages": "Ages 3 to 7",
      "text": "Classic fairy tales retold with your family as the characters, as hardcover picture books. Little Red Riding Hood, Goldilocks and more.",
      "cta": "Visit Family Storybooks"},
-    {"key": "learntoread", "name": "Family Learn to Read", "status": "planned", "colour": "leaf", "icon": "read", "ages": "Ages 4 and up",
+    {"key": "learntoread", "name": "Family Learn to Read", "domain": "familylearntoread.com", "status": "planned", "colour": "leaf", "icon": "read", "ages": "Ages 4 and up",
      "text": "Phonics and early reading books that grow with your child, stage by stage, with their own family in every story."},
-    {"key": "calendars", "name": "Family Photo Calendars", "status": "planned", "colour": "orange", "icon": "calendar", "ages": "For the whole family",
+    {"key": "calendars", "name": "Family Photo Calendars", "domain": "familyphotocalendars.com", "status": "planned", "colour": "orange", "icon": "calendar", "ages": "For the whole family",
      "text": "A calendar for the year ahead with your family drawn into every month, plus birthdays and special days marked for you."},
-    {"key": "jigsaws", "name": "Family Jigsaw Puzzles", "status": "planned", "colour": "grape", "icon": "puzzle", "ages": "All ages",
+    {"key": "jigsaws", "name": "Family Jigsaw Puzzles", "domain": "familyjigsawpuzzles.com", "status": "planned", "colour": "grape", "icon": "puzzle", "ages": "All ages",
      "text": "Jigsaw puzzles of your family as a cartoon scene, from chunky first puzzles to ones for grown-ups."},
 ]
 STATUS = {"live": "Open now", "soon": "Opening soon", "planned": "Coming later"}
@@ -104,7 +104,7 @@ def card(b):
     if b.get("url"):
         foot = f'<a class="btn btn-sm" href="{b["url"]}">{e(b["cta"])}<span aria-hidden="true">&rarr;</span></a><span class="dom">{e(b["domain"])}</span>'
     else:
-        foot = f'<a class="btn btn-sm ghost" href="#news" data-brand="{b["key"]}">Tell me when it opens</a>'
+        foot = f'<a class="btn btn-sm ghost" href="#news" data-brand="{b["key"]}">Tell me when it opens</a><span class="dom">{e(b["domain"])}</span>'
     return f'<article class="brand c-{b["colour"]}"><div class="brand-art">{icon}</div>{head}<h3>{e(b["name"])}</h3><p>{e(b["text"])}</p><div class="brand-foot">{foot}</div></article>'
 
 
