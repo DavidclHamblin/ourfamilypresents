@@ -30,8 +30,10 @@ BRANDS = [
      "domain": "familyphotocalendars.com", "status": "soon", "colour": "orange", "icon": "calendar", "ages": "For the whole family",
      "text": "A4 and A5 wall calendars from your family photos: as they are, as cartoons or somewhere new like Paris, with birthdays and special days marked.",
      "cta": "Visit Family Photo Calendars"},
-    {"key": "jigsaws", "name": "Family Jigsaw Puzzles", "domain": "familyjigsawpuzzles.com", "status": "planned", "colour": "grape", "icon": "puzzle", "ages": "All ages",
-     "text": "Jigsaw puzzles of your family as a cartoon scene, from chunky first puzzles to ones for grown-ups."},
+    {"key": "jigsaws", "name": "Family Jigsaw Puzzles", "url": "https://www.familyjigsawpuzzles.com",
+     "domain": "familyjigsawpuzzles.com", "status": "soon", "colour": "grape", "icon": "puzzle", "ages": "All ages",
+     "text": "Your family photo as a jigsaw, as it is, as a cartoon or somewhere new like Paris. From 30 chunky pieces to 1,000, in cardboard or wood.",
+     "cta": "Visit Family Jigsaw Puzzles"},
 ]
 STATUS = {"live": "Open now", "soon": "Opening soon", "planned": "Coming later"}
 
