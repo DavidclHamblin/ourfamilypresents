@@ -26,8 +26,10 @@ BRANDS = [
      "cta": "Visit Family Storybooks"},
     {"key": "learntoread", "name": "Family Learn to Read", "domain": "familylearntoread.com", "status": "planned", "colour": "leaf", "icon": "read", "ages": "Ages 4 and up",
      "text": "Phonics and early reading books that grow with your child, stage by stage, with their own family in every story."},
-    {"key": "calendars", "name": "Family Photo Calendars", "domain": "familyphotocalendars.com", "status": "planned", "colour": "orange", "icon": "calendar", "ages": "For the whole family",
-     "text": "A calendar for the year ahead with your family drawn into every month, plus birthdays and special days marked for you."},
+    {"key": "calendars", "name": "Family Photo Calendars", "url": "https://www.familyphotocalendars.com",
+     "domain": "familyphotocalendars.com", "status": "soon", "colour": "orange", "icon": "calendar", "ages": "For the whole family",
+     "text": "A4 and A5 wall calendars from your family photos: as they are, as cartoons or somewhere new like Paris, with birthdays and special days marked.",
+     "cta": "Visit Family Photo Calendars"},
     {"key": "jigsaws", "name": "Family Jigsaw Puzzles", "domain": "familyjigsawpuzzles.com", "status": "planned", "colour": "grape", "icon": "puzzle", "ages": "All ages",
      "text": "Jigsaw puzzles of your family as a cartoon scene, from chunky first puzzles to ones for grown-ups."},
 ]
